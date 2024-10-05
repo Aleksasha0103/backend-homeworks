@@ -7,9 +7,6 @@ public class HomeworkWeek2Task6 {
             double p = a + b + c;
             int s = (a * b) / 2;
 
-            int d = 15;
-            int e = 30;
-
             System.out.println("Катет a = " + a + " см");
             System.out.println("Катет b = " + b + " см");
             System.out.println("Найти площадь и периметр. Решение:");
@@ -17,7 +14,7 @@ public class HomeworkWeek2Task6 {
             System.out.println("Периметр P = " + p + " см");
             System.out.println("Площадь S = " + s + " см");
             System.out.println("Выяснить: больше ли периметр 15 и меньше ли площадь 30? Сравнение:");
-            System.out.println("Периметр P больше 15 см: " + (p > d));
-            System.out.println("Площадь S меньше 30 см: " + (s < e));
+            System.out.println("Периметр P больше 15 см: " + (p > 15));
+            System.out.println("Площадь S меньше 30 см: " + (s < 30));
     }
 }
