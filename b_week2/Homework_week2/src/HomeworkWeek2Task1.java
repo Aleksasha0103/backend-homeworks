@@ -10,9 +10,9 @@ public class HomeworkWeek2Task1 {
 
         boolean g = true;
 
-        char h = '\u0401';
+        char h = 'Ё';
 
-        String i = new String("This is my first programm.");
+        String i = "This is my first program.";
 
         System.out.println("a = " + a);
         System.out.println("b = " + b);
