@@ -1,7 +1,7 @@
 package ru.alexandradeeva.shipandfish;
 
-public class MakeFloat {
-    public void letsFloat(Floatable floatable) {
-        floatable.float();
+public class MakeSwim {
+    public void letsSwim (Swimmable swimmable) {
+        swimmable.swim();
     }
 }
