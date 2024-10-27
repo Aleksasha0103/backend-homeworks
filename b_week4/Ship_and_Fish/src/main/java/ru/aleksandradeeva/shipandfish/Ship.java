@@ -1,4 +1,4 @@
-package ru.alexandradeeva.shipandfish;
+package ru.aleksandradeeva.shipandfish;
 
 public class Ship implements Swimmable {
     @Override

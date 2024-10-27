@@ -1,4 +1,4 @@
-package ru.alexandradeeva.shipandfish;
+package ru.aleksandradeeva.shipandfish;
 
 public class Main {
     public static void main(String[] args) {
