@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Additional-Homework_week4_University" />
         <module name="Additional-Homework_week3_jungle-simulator" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Additional-Homework_week4_University" target="23" />
+    </bytecodeTargetLevel>
   </component>
 </project>
