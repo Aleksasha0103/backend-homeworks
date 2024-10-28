@@ -21,7 +21,8 @@ public class Car {
     public String slowDown() {
         return "is slowing down";
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         Car car1 = new Car();
         car1.color = "white";
         car1.brand = "BMW";
