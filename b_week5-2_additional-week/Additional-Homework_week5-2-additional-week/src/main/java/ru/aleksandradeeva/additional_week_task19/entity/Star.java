@@ -1,22 +1,36 @@
-package ru.aleksandradeeva.additional_week_task19;
+package ru.aleksandradeeva.additional_week_task19.entity;
 
 public class Star {
-    String starName;
-    Planet planet;
+    private String starName;
+    private int starWeight;
 
     public Star() {
     }
 
-    public Star(String starName, Planet planet) {
+    public Star(String starName, int starWeight) {
         this.starName = starName;
+        this.starWeight = starWeight;
     }
 
-    public String getstarName() {
+    public String getStarName() {
         return starName;
     }
 
-    public void setstarName(String starName) {
+    public void setStarName(String starName) {
         this.starName = starName;
+    }
+
+    public int getStarWeight() {
+        return starWeight;
+    }
+
+    public void setStarWeight(int starWeight) {
+        this.starWeight = starWeight;
+    }
+
+    @Override
+    public String toString() {
+        return "Звезда по имени " + starName + " весит " + starWeight + "т.";
     }
 
 

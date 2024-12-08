@@ -1,4 +1,4 @@
-package ru.aleksandradeeva.additional_week_task19;
+package ru.aleksandradeeva.additional_week_task19.entity;
 
 public class Moon {
     String moonName;

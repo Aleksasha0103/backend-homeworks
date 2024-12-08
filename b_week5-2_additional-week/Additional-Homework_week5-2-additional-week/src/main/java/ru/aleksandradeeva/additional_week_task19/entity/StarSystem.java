@@ -1,9 +1,9 @@
-package ru.aleksandradeeva.additional_week_task19;
+package ru.aleksandradeeva.additional_week_task19.entity;
 
 public class StarSystem {
-    Planet planet;
-    Star star;
-    Moon moon;
+    private Planet planet;
+    private Star star;
+    private Moon moon;
 
     public StarSystem(Star star, Planet planet, Moon moon) {
     }
