@@ -54,7 +54,7 @@ public class AuthorServiceImpl implements AuthorService {
 
     private AuthorDto convertEntityToDto(Author author) {
         List<BookDto> bookDtoList = null;
-        if (author.getBooks() !=null) {
+        if (author.getBooks() != null) {
             bookDtoList = author.getBooks()
                     .stream()
                     .map(book -> BookDto.builder()
@@ -96,7 +96,7 @@ public class AuthorServiceImpl implements AuthorService {
     }
 
     @Override
-    public  AuthorDto createAuthor(AuthorCreateDto authorCreateDto) {
+    public AuthorDto createAuthor(AuthorCreateDto authorCreateDto) {
         Author author = authorRepository.save(convertDtoToEntity(authorCreateDto));
         AuthorDto authorDto = convertEntityToDto(author);
         return authorDto;

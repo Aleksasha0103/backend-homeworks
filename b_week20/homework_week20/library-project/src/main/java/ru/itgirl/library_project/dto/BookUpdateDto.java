@@ -1,6 +1,5 @@
 package ru.itgirl.library_project.dto;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,10 +11,9 @@ import java.util.List;
 @NoArgsConstructor
 @Data
 @Builder
-@JsonInclude(JsonInclude.Include.NON_NULL)
-public class BookDto {
+public class BookUpdateDto {
     private Long id;
     private String name;
-    private String genre;
+    private GenreDto genre;
     private List<AuthorDto> authors;
 }

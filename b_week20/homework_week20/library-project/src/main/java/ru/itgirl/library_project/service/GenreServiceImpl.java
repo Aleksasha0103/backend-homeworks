@@ -10,8 +10,6 @@ import ru.itgirl.library_project.repository.GenreRepository;
 
 import java.util.List;
 
-import static java.util.stream.Collectors.toList;
-
 @Service
 @RequiredArgsConstructor
 public class GenreServiceImpl implements GenreService {
