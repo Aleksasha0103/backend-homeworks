@@ -124,11 +124,4 @@ public class AuthorServiceImpl implements AuthorService {
     public void deleteAuthor(Long id) {
         authorRepository.deleteById(id);
     }
-
-
-    @Override
-    public List<AuthorDto> getAllAuthors() {
-        List<Author> authors = authorRepository.findAll();
-        return authors.stream().map(this::convertEntityToDto).collect(Collectors.toList());
-    }
 }
