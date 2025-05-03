@@ -15,7 +15,6 @@ import ru.itgirl.library_project.model.Author;
 import ru.itgirl.library_project.repository.AuthorRepository;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
